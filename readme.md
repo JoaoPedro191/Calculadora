@@ -18,5 +18,5 @@ Neste desafio desevolvi uma calculadora, para colocar o conhecimento de lógica 
 
 
 <a href="https://snazzy-tulumba-d7f27c.netlify.app/">
-    você poderá ver o projeto, no link acima.
+    link do projeto.
   </a>
