@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div#calc {
+  display: flex;
+  flex-direction: column;
+  background-color: #929693;
+  width: 40rem;
+  padding: 0.5rem;
+}
+
+div#calc > h3 {
+  font-size: 2rem;
+}
+
+div#calc > div#operations {
+  text-align: right;
+  height: 8rem;
+}
+
+div#calc div#operations > div#previous-operation {
+  padding: 0.2rem;
+  word-wrap: break-word;
+  word-break: break-all;
+  min-height: 1.6rem;
+}
+
+div#calc div#operations > div#current-operation {
+  font-size: 3rem;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 0.2rem;
+  min-height: 1.6rem;
+}
+
+div#calc div#buttons-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.3rem;
+}
+
+div#calc div#buttons-container button {
+  border: 1px solid transparent;
+  border-radius: 0;
+  height: 7.8rem;
+  font-size: 1.7rem;
+  background-color: #dbdbdb;
+  cursor: pointer;
+}
+
+div#calc div#buttons-container button.number {
+  background-color: #f3f3f3;
+}
+
+div#calc div#buttons-container button.number:hover {
+  background-color: #bababa;
+  border-color: #999;
+}
+
+div#calc div#buttons-container button#Equal-Btn {
+  grid-column: span 2;
+  background-color: #75a5cb;
+}
+
+div#calc div#buttons-container button#Equal-Btn:hover {
+  background-color: #3a91d8;
+}
